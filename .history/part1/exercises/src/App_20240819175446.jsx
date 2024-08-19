@@ -7,9 +7,7 @@ import HobbyLinks from './components/HobbyLinks.jsx';
 function App() {
   return (
     <div className="App">
-      <div>
-        <ChoresList />
-      </div>
+      <ChoresList />
       <div className="similarComponents">
         <MovieList />
         <BookList />

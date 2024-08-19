@@ -1,5 +1,5 @@
  export default function HobbyLinks () {
-    const hobbyLinks = ["dota2.com", "youtube.com"];
+    const links = ["dota2.com", "youtube.com"];
     return(
        <div>
           <h1>Hobbies</h1>

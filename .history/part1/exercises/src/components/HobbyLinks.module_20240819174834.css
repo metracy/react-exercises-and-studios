@@ -1,13 +1,14 @@
-.choresText {
-   color: rgb(255, 238, 0);
+.hobbyText {
+   color: rgb(0, 204, 255);
    font-size: 1.3vw;
    text-align: left;
    font-family: 'Courier New', monospace;
 }
 
-.choresHeading {
-   color: rgb(255, 238, 0);
+.hobbyHeading {
+   color: rgb(0, 204, 255);
    text-align: left;
    font-style:italic;
    text-decoration: underline;
+
 }
