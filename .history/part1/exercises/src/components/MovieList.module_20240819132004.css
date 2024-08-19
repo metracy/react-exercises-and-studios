@@ -1,11 +1,10 @@
 .movieText {
-   color: darkblue;
-   font-size: 20;
+   color: purple;
+   font-size: 1.3vw;
    text-align: left;
    font-family: 'Courier New', monospace;
 }
 
 .movieHeading {
-   color: darkblue;
    text-align: left;
 }

@@ -3,12 +3,12 @@
    font-size: 1.3vw;
    text-align: left;
    font-family: 'Courier New', monospace;
+   text-decoration: underline;
 }
 
 .choresHeading {
    color: rgb(255, 238, 0);
    text-align: left;
    font-style:italic;
-   text-decoration: underline;
 
 }
