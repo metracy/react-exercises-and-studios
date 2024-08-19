@@ -3,7 +3,6 @@
    font-size: 1.3vw;
    text-align: left;
    font-family: 'Courier New', monospace;
-   padding: 10px;
 }
 
 .hobbyHeading {
@@ -11,5 +10,4 @@
    text-align: left;
    font-style:italic;
    text-decoration: underline;
-   padding: 10px;
 }
