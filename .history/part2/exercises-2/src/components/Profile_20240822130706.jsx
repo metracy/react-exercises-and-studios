@@ -12,7 +12,6 @@ const listItem = oceans.map(ocean =>
          <li>{ocean.fact1}</li>
          <li>{ocean.fact2}</li>
          <li>{ocean.fact3}</li>
-         <Button />
       </ul>
       
       <img src={ocean.image} alt={ocean.name} className="img"/> 
@@ -21,9 +20,13 @@ const listItem = oceans.map(ocean =>
 function Profile()
 {
    return(
+      <>
          <ul>
             {listItem}
          </ul>  
+         <Button />
+      </>
+      
    );
 }
 

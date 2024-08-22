@@ -9,10 +9,10 @@ const listItem = oceans.map(ocean =>
       	
       <h3>Fun Facts:</h3>
       <ul>
+         <Button />
          <li>{ocean.fact1}</li>
          <li>{ocean.fact2}</li>
          <li>{ocean.fact3}</li>
-         <Button />
       </ul>
       
       <img src={ocean.image} alt={ocean.name} className="img"/> 
