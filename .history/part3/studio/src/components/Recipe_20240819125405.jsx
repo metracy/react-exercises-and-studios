@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "https://en.wikipedia.org/wiki/Jay_Catherwood_Hormel";
-   let authorPhoto = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jay_C._Hormel%2C_Austin%2C_Minn.%2C_packer%2C_before_Senate_Unemployment_Comm._LCCN2016878034.jpg/220px-Jay_C._Hormel%2C_Austin%2C_Minn.%2C_packer%2C_before_Senate_Unemployment_Comm._LCCN2016878034.jpg";
-   let authorName = "Jay Catherwood Hormel";
+   let authorLink = "";
+   let authorPhoto = "";
+   let authorName = "";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "Testifying" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = ['Pork and ham meat','Salt','Water','Potato Starch','Sodium Nitrate'];
+   const ingredients = [];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1>Spam</h1>
-            <p>Ultra Processed Meat.</p>
+            <h1></h1>
+            <p></p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/1936canHormelSpicedHam.jpg/220px-1936canHormelSpicedHam.jpg" alt="" className="imageUpdates"/>
+      <img src="" alt="" className="imageUpdates"/>
    );
 }
 

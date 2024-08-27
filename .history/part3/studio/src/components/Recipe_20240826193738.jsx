@@ -37,7 +37,7 @@ const RecipeDescription = () => {
       <div> 
          <div>
             <h1>Spam</h1>
-            <p>Ultra Processed Meat.</p>
+            <p>Processed Meat.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />

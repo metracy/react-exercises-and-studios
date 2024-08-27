@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1>Spam</h1>
-            <p>Ultra Processed Meat.</p>
+            <h1></h1>
+            <p></p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/1936canHormelSpicedHam.jpg/220px-1936canHormelSpicedHam.jpg" alt="" className="imageUpdates"/>
+      <img src="" alt="" className="imageUpdates"/>
    );
 }
 

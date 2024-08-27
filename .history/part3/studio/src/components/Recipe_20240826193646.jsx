@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1>Spam</h1>
-            <p>Ultra Processed Meat.</p>
+            <h1></h1>
+            <p></p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
