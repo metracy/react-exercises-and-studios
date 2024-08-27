@@ -5,10 +5,20 @@ export default function BoardAssignment () {
 
 
 
-   const [boardName, setName] = useState('no boards yet');
+   [boardName, setboardName] = useState({
+
+    
+   });
+
+   function DaysOfTheWeek() {
+      const ListOfDays = (props) => {
+      return props.map((day) => <li key={props.index}>{day}</li>);
+      };
+      return <ul>{ListOfDays(weekDays)}</ul>;
+      }
 
    const handleChange = (event) => {
-      setName(event.target.value);
+      
    }
 
    return (
